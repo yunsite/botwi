@@ -17,7 +17,7 @@ if ($method == 'POST') {
 	$post_str = @file_get_contents ( 'php://input' );
 	parse_str ( $post_str, $post_data );
 }
-if (strpos ( $request_api, 'api/' ) === 0) //workaround for twhirl
+if (strpos ( $request_api, 'api/' ) === 1) //workaround for twhirl
 	$request_api = substr ( $request_api, 4 );
 
 $type = request_type ( $request_api );
