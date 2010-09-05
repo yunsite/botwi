@@ -12,5 +12,5 @@ define ( 'TWITTER_SEARCH', 'http://search.twitter.com' );
 
 define ( 'OAUTH_CONSUMER_KEY', 'XcMuJNdHKUbKpw71C5Udg' );
 define ( 'OAUTH_CONSUMER_SECRET', 'H2I7EB3othIDVokbK6V0qG3Xhg0jXOuOneTdra4Fo' );
-define ( 'OAUTH_CALLBACK_URL', 'http://iamzzm.alwaysdata.net/botwi/oauth' );
+define ( 'OAUTH_CALLBACK_URL', 'http://www.iamzzm.info/botwi/oauth' );
 ?>

@@ -167,7 +167,7 @@ function oauth_str() {
 	curl_setopt ( $chr, CURLOPT_FOLLOWLOCATION, TRUE );
 	$oauthStr = curl_exec ( $chr );
 	curl_close ( $chr );
-	return $oauthStr;
+	return trim ( strip_tags ( $oauthStr ) );
 }
 /**
  * Parse username & password
